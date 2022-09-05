@@ -1,7 +1,7 @@
 Package: sparsegl
 Type: Package
 Title: Sparse Group Lasso
-Version: 0.3.0
+Version: 0.4.0
 Authors@R: 
     c(person(given = "Daniel J.",
            family = "McDonald",
@@ -25,7 +25,7 @@ Description: Efficient implementation of sparse group lasso with optional bound
   long integers.
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.1
 Imports: Matrix, RSpectra, assertthat, methods, tidyr, ggplot2,
         magrittr, rlang, dotCall64
 Depends: R (>= 3.5)
@@ -36,10 +36,10 @@ Suggests: testthat (>= 3.0.0), knitr, rmarkdown, markdown, glmnet
 Config/testthat/edition: 3
 VignetteBuilder: knitr
 NeedsCompilation: yes
-Packaged: 2022-03-03 03:13:06 UTC; dajmcdon
+Packaged: 2022-09-05 19:06:34 UTC; dajmcdon
 Author: Daniel J. McDonald [aut, cre],
   Xiaoxuan Liang [aut],
   Aaron Cohen [aut]
 Maintainer: Daniel J. McDonald <daniel@stat.ubc.ca>
 Repository: CRAN
-Date/Publication: 2022-03-07 20:30:05 UTC
+Date/Publication: 2022-09-05 19:20:02 UTC

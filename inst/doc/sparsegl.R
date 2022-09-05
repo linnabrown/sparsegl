@@ -51,5 +51,5 @@ coef <- coef(fit_l1, s = "lambda.1se")
 pred <- predict(fit_l1, newx = X[50:80, ], s = "lambda.min")
 
 ## -----------------------------------------------------------------------------
-risk <- estimate_risk(fit1, X, y, type = "AIC", approx_df = FALSE)
+risk <- estimate_risk(fit1, X, type = "AIC", approx_df = FALSE)
 
