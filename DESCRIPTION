@@ -1,11 +1,23 @@
 Type: Package
 Package: sparsegl
 Title: Sparse Group Lasso
-Version: 0.5.0
+Version: 1.0.0
+Date: 2022-11-17
 Authors@R: c(
     person("Daniel J.", "McDonald", , "daniel@stat.ubc.ca", role = c("aut", "cre")),
     person("Xiaoxuan", "Liang", , "xiaoxuan.liang@stat.ubc.ca", role = "aut"),
-    person("Aaron", "Cohen", , "cohenaa@indiana.edu", role = "aut")
+    person("Anibal", "Solón Heinsfeld", , "anibalsolon@gmail.com", role = "aut"),
+    person("Aaron", "Cohen", , "cohenaa@indiana.edu", role = "aut"),
+    person("Yi", "Yang", , "yi.yang6@mcgill.ca", role = "ctb"),
+    person("Hui", "Zou", role = "ctb"),
+    person("Jerome", "Friedman", role = "ctb"),
+    person("Trevor", "Hastie", role = "ctb"),
+    person("Rob", "Tibshirani", role = "ctb"),
+    person("Balasubramanian", "Narasimhan", role = "ctb"),
+    person("Kenneth", "Tay", role = "ctb"),
+    person("Noah", "Simon", role = "ctb"),
+    person("Junyang", "Qian", role = "ctb"),
+    person("James", "Yang", role = "ctb")
   )
 Description: Efficient implementation of sparse group lasso with optional
     bound constraints on the coefficients. It supports the use of a sparse
@@ -18,19 +30,31 @@ License: GPL (>= 2)
 URL: https://github.com/dajmcdon/sparsegl/
 BugReports: https://github.com/dajmcdon/sparsegl/issues/
 Depends: R (>= 3.5)
-Imports: assertthat, dotCall64, ggplot2, magrittr, Matrix, methods,
-        rlang, RSpectra, tidyr
-Suggests: glmnet, knitr, markdown, rmarkdown, testthat (>= 3.0.0)
+Imports: cli, dotCall64, ggplot2, magrittr, Matrix, methods, rlang,
+        RSpectra, tidyr
+Suggests: dplyr, glmnet, knitr, markdown, rmarkdown, splines, testthat
+        (>= 3.0.0)
 VignetteBuilder: knitr
 Config/testthat/edition: 3
 Encoding: UTF-8
 LazyData: true
 NeedsCompilation: yes
-RoxygenNote: 7.2.1
-Packaged: 2022-09-21 17:25:19 UTC; dajmcdon
+RoxygenNote: 7.2.2
+Packaged: 2022-11-28 22:54:05 UTC; dajmcdon
 Author: Daniel J. McDonald [aut, cre],
   Xiaoxuan Liang [aut],
-  Aaron Cohen [aut]
+  Anibal Solón Heinsfeld [aut],
+  Aaron Cohen [aut],
+  Yi Yang [ctb],
+  Hui Zou [ctb],
+  Jerome Friedman [ctb],
+  Trevor Hastie [ctb],
+  Rob Tibshirani [ctb],
+  Balasubramanian Narasimhan [ctb],
+  Kenneth Tay [ctb],
+  Noah Simon [ctb],
+  Junyang Qian [ctb],
+  James Yang [ctb]
 Maintainer: Daniel J. McDonald <daniel@stat.ubc.ca>
 Repository: CRAN
-Date/Publication: 2022-09-22 08:30:02 UTC
+Date/Publication: 2022-11-28 23:30:02 UTC

@@ -22,8 +22,8 @@ Computes the coefficients at the requested value(s) for \code{lambda} from a
 \code{\link[=sparsegl]{sparsegl()}} object.
 }
 \details{
-\code{s} is the new vector at which predictions are requested. If \code{s}
-is not in the lambda sequence used for fitting the model, the \code{coef}
+\code{s} is the new vector of \code{lambda} values at which predictions are requested.
+If \code{s} is not in the lambda sequence used for fitting the model, the \code{coef}
 function will use linear interpolation to make predictions. The new values
 are interpolated using a fraction of coefficients from both left and right
 \code{lambda} indices.
@@ -40,6 +40,5 @@ fit1 <- sparsegl(X, y, group = groups)
 coef(fit1, s = c(0.02, 0.03))
 }
 \seealso{
-\code{\link[=sparsegl]{sparsegl()}}, \code{\link[=predict.sparsegl]{predict.sparsegl()}} and
-\code{\link[=print.sparsegl]{print.sparsegl()}} methods.
+\code{\link[=sparsegl]{sparsegl()}} and \code{\link[=predict.sparsegl]{predict.sparsegl()}}.
 }
