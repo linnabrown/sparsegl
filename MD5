@@ -1,4 +1,4 @@
-ab42afe992512767f0bf84544d286c4f *DESCRIPTION
+5d83f2681b122239d16f30938174af9a *DESCRIPTION
 c74e1685f1dfee4caa23d94d1c63a02c *NAMESPACE
 abf42cc31e810db764ad08d377dca440 *NEWS.md
 2e3d4114f40df284e9abf3cce5bc23e6 *R/calc_gamma.R
@@ -20,7 +20,7 @@ b56ff2b193ecba52f9ec7f3b10cca008 *R/utils-pipe.R
 0bcce5bab8f1a279d54f02071f3b27a0 *README.md
 ea124a494ad7922985532ad3b308e4d5 *build/partial.rdb
 0da628fe51d3583679b6974476f7276a *build/vignette.rds
-7bbb5d053f6d53f03b03e7b7fb55ed08 *data/trust_experts.rda
+df29ed8040d871d5df333729d471055f *data/trust_experts.rda
 cf2624e1e0cfce91ccd50403a018b254 *inst/doc/sparsegl.R
 d865f289b9878fe576ae7c5073a39d58 *inst/doc/sparsegl.Rmd
 4d75f866beba94d340eb7c35d62fc007 *inst/doc/sparsegl.html

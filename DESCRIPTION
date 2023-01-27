@@ -1,8 +1,8 @@
 Type: Package
 Package: sparsegl
 Title: Sparse Group Lasso
-Version: 1.0.0
-Date: 2022-11-17
+Version: 1.0.1
+Date: 2023-01-27
 Authors@R: c(
     person("Daniel J.", "McDonald", , "daniel@stat.ubc.ca", role = c("aut", "cre")),
     person("Xiaoxuan", "Liang", , "xiaoxuan.liang@stat.ubc.ca", role = "aut"),
@@ -39,8 +39,8 @@ Config/testthat/edition: 3
 Encoding: UTF-8
 LazyData: true
 NeedsCompilation: yes
-RoxygenNote: 7.2.2
-Packaged: 2022-11-28 22:54:05 UTC; dajmcdon
+RoxygenNote: 7.2.3
+Packaged: 2023-01-27 17:52:54 UTC; dajmcdon
 Author: Daniel J. McDonald [aut, cre],
   Xiaoxuan Liang [aut],
   Anibal Solón Heinsfeld [aut],
@@ -57,4 +57,4 @@ Author: Daniel J. McDonald [aut, cre],
   James Yang [ctb]
 Maintainer: Daniel J. McDonald <daniel@stat.ubc.ca>
 Repository: CRAN
-Date/Publication: 2022-11-28 23:30:02 UTC
+Date/Publication: 2023-01-27 18:20:02 UTC
