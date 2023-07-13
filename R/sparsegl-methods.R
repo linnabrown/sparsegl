@@ -125,7 +125,18 @@ predict.sparsegl <- function(
   if (is.null(dx)) newx <- matrix(newx, 1, byrow = TRUE)
   if (ncol(newx) != p)
     cli::cli_abort("The number of variables in `newx` must be {p}.")
-  fit <- as.matrix(cbind2(1, newx) %*% nbeta)
+  chunk_size <- 1000
+  #fit <- as.matrix(cbind2(1, newx) %*% nbeta)
+  # Preallocate result
+  fit <- matrix(0, nrow = nrow(newx), ncol = ncol(nbeta))
+  # Number of chunks
+  n_chunks <- ceiling(nrow(newx) / chunk_size)
+  for(i in 1:n_chunks) {
+    # Calculate row indices for this chunk
+    rows <- ((i-1)*chunk_size+1):min(i*chunk_size, nrow(newx))
+    # Compute product for this chunk and add to result
+    fit[rows, ] <- cbind2(1, newx[rows, ]) %*% nbeta
+  }
   fit
 }
 
